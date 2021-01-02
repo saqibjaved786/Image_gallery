@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* font-family: sans-serif; */
+}
+
+.container{
+    width: 100%;
+    height: 101vh;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100%;
+    
+}
+
+
+.nav{
+    background: #F67E7D;
+    display: grid;
+    grid-template-rows:20% 8% 30% 6% 10% ;
+    align-content: space-evenly;
+    
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width:150px;
+    
+}
+
+.hed1 h1{
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+
+
+.ul1 ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul1 li a{
+    color: black;
+    text-transform: capitalize;
+    font-size: 18px;
+    transition: .5s;
+
+}
+
+.ul1 li a:hover{
+    color: lavender;
+    padding-left: 15px;
+}
+
+
+.follow h2{
+    text-transform:capitalize ;
+    font-size: 20px;
+    text-align: center;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.face{
+    font-size: 15px;
+    background: white;
+    padding: 8px;
+    border-radius: 50%;
+    color: #F67E7D;
+}
+
+.face:hover{
+    background: black;
+    color:white;
+    cursor: pointer;
+}
+
+.main{
+    overflow-y: scroll;
+}
+
+
+.contact{
+    width: 100%;
+    height: 43vh;
+    padding-top:1px;
+    background-color: lavender;
+}
+
+.ul2{
+    
+    height: 5vh;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5% ; 
+    margin-top: 50px;
+    /* border: 1px solid; */
+}
+.ul2 li a{
+    font-size: 16px;
+    color: black;
+    text-decoration: underline;
+    text-transform: capitalize;
+   
+}
+
+.contact h1{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.contact p{
+    font-size: 17px;
+    color: black;
+    margin-left: 5%;
+    margin-top: 30px;
+    letter-spacing: .1px;
+    line-height: 30px;
+}
+
+
+
+.gallery2{
+    position: relative;
+    width: 100%;
+    height: 155vh;
+    /* background: black; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 40% 60%);
+    overflow-y: hidden;
+}
+
+
+
+
+.information h1{
+    position: absolute;
+    font-size: 30px;
+    top: 50px;
+    left: 4%;
+ 
+
+}
+
+.adress{
+    position: relative;
+    width: 20%;
+    height:25vh;
+    top: 50%;
+    background-color: lightgray;
+    float: left;
+    margin-left: 3.8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.adress p{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.adress span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: space-evenly;
+    /* border:1px solid green; */
+}
+
+.google-map{
+    position: relative;
+    width: 44%;
+    height: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('img/map2.jpg');
+    background-size: 100% 100%;
+    border: 1px solid;
+}
+
+
+.google-map h1{
+    position: absolute;
+    color: white;
+    text-transform: capitalize;
+    bottom: 10px;
+    left: 10px;
+}
+
+.form{
+    width: 44%;
+    height: 100%;
+    background-color: lightgray;
+
+}
+
+.name{
+    position: relative;
+    width: 70%;
+    height: 44px;
+    left: 15%;
+    top: 50px;
+    outline: none;
+    border: 1px solid gray;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    display: block;
+}
+.mail{
+    top: 70px;
+}
+
+.subject{
+    top: 90px;
+}
+
+.message{
+    height: 150px;
+    top: 110px;
+}
+
+.submit{
+    position: relative;
+    width: 40%;
+    height: 60px;
+    top: 130px;
+    left: 30%;
+    background-color: #F67E7D;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    display: block;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    top: 20px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 28%);
+    grid-template-rows: 60%;
+    grid-column-gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.footer-1 h1{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+}
+
+.photo{
+    position: relative;
+    width: 100%;
+    height: 8vh;
+    top: 10px;
+    border-bottom: 1px solid gray;
+}
+.p1
+{
+    color: lightgray;
+    font-size: 15px;
+    display: inline-block;
+    text-transform: capitalize;
+    letter-spacing: 1.3px;
+    margin-top: 20px;
+
+}
+.p2{
+    position: absolute;
+    right: 8px;
+}
+
+
+.photo3{
+    height: 13vh;
+}
+.p3
+{
+    position: relative;
+    color: lightgray;
+    left: 25px;
+    line-height: 25px;
+    font-size: 13px;
+    top: 15px;
+    letter-spacing: 1px;
+    
+}
+.p4{
+    top:22px ;
+}
+
+.map{
+    position: absolute;
+    color: lightgray;
+    font-size: 14px;
+    top: 18px;
+}
+
+.call{
+    top: 27px;
+}
+
+.envp{
+    top: 27px;
+    font-size: 14px;
+}
+.photo4{
+    height: 9.5vh;   
+}
+
+
+

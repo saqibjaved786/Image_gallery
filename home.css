@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* font-family: sans-serif; */
+}
+
+.container{
+    width: 100%;
+    height: 101vh;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100%;
+    
+}
+
+
+.nav{
+    background: #F67E7D;
+    display: grid;
+    grid-template-rows:20% 8% 30% 6% 10% ;
+    align-content: space-evenly;
+    
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width:150px;
+    
+}
+
+.hed1 h1{
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+
+
+.ul1 ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul1 li a{
+    color: black;
+    text-transform: capitalize;
+    font-size: 18px;
+    transition: .5s;
+
+}
+
+.ul1 li a:hover{
+    color: lavender;
+    padding-left: 15px;
+}
+
+
+.follow h2{
+    text-transform:capitalize ;
+    font-size: 20px;
+    text-align: center;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.face{
+    font-size: 15px;
+    background: white;
+    padding: 8px;
+    border-radius: 50%;
+    color: #F67E7D;
+}
+
+.face:hover{
+    background: black;
+    color:white;
+    cursor: pointer;
+}
+
+.main{
+    overflow-y: scroll;
+}
+
+.gallery{
+    width: 100%;
+    height: 200vh;
+    /* background: black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 25%);
+    overflow-y: hidden;
+}
+
+.img1{
+    position: relative;
+    width: 100%;
+
+}
+.img1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.work{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition:2s ;
+}
+.work h1{
+
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 25px;
+    
+}
+
+.work h1 span{
+    font-size: 18px;
+}
+
+.img1:hover .work {
+    transform: scale(1);
+}
+
+
+.footer{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    top: 20px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 28%);
+    grid-template-rows: 60%;
+    grid-column-gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.footer-1 h1{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+}
+
+.photo{
+    position: relative;
+    width: 100%;
+    height: 8vh;
+    top: 10px;
+    border-bottom: 1px solid gray;
+}
+.p1
+{
+    color: lightgray;
+    font-size: 15px;
+    display: inline-block;
+    text-transform: capitalize;
+    letter-spacing: 1.3px;
+    margin-top: 20px;
+
+}
+.p2{
+    position: absolute;
+    right: 8px;
+}
+
+
+.photo3{
+    height: 13vh;
+}
+.p3
+{
+    position: relative;
+    color: lightgray;
+    left: 25px;
+    line-height: 25px;
+    font-size: 13px;
+    top: 15px;
+    letter-spacing: 1px;
+    
+}
+.p4{
+    top:22px ;
+}
+
+.map{
+    position: absolute;
+    color: lightgray;
+    font-size: 14px;
+    top: 18px;
+}
+
+.call{
+    top: 27px;
+}
+
+.envp{
+    top: 27px;
+    font-size: 14px;
+}
+.photo4{
+    height: 9.5vh;   
+}
+
+
+
